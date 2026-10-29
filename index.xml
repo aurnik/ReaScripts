@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index version="1" name="aurnik" commit="f250fb5052a9a681c7c6f9f9dc2d19c5ef2a7370">
+  <category name="Extensions">
+    <reapack name="ReaBackground.ext" type="extension" desc="ReaBackground: video or image behind the arrange view">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \fs24 \sa180 \li0 \fi0 \outlinelevel0 \b \fs34 ReaBackground\par}
+{\pard \ql \f0 \fs24 \sa180 \li0 \fi0 Shows a muted video (synced to the play and edit cursor) or a still image behind REAPER's arrange view on macOS. Items, grid, cursors and overlays stay on top; the time selection, mute shading and grid lines read as shading over the video.\par}
+{\pard \ql \f0 \fs24 \sa180 \li0 \fi0 After installing, restart REAPER, then run the action {\b ReaBackground.lua} (or Extensions > ReaBackground...) to open the settings window. Import a video or image with the + tile, click a thumbnail to use it in the current project, or the globe icon to make it the default for every project.\par}
+{\pard \ql \f0 \fs24 \sa180 \li0 \fi0 Requirements: macOS 11 or newer, REAPER with Metal rendering enabled, ReaImGui (install it from ReaPack) for the settings window.\par}
+}
+]]></description>
+        <link rel="website" href="https://github.com/aurnik/ReaBackground">Source repository</link>
+        <link rel="website" href="https://github.com/aurnik/ReaBackground/issues">Issue tracker</link>
+      </metadata>
+      <version name="1.0.0" author="aurnik" time="2026-10-29T23:08:44Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source platform="darwin" file="reaper_reabackground.dylib">https://github.com/aurnik/ReaBackground/releases/download/v1.0.0/reaper_reabackground.dylib</source>
+        <source main="main" type="script" file="ReaBackground.lua">https://raw.githubusercontent.com/aurnik/ReaBackground/v1.0.0/ReaBackground.lua</source>
+      </version>
+    </reapack>
+  </category>
+</index>
