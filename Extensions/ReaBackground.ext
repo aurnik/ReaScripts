@@ -1,0 +1,25 @@
+@description ReaBackground: video or image behind the arrange view
+@author aurnik
+@version 1.0.0
+@changelog Initial release
+@provides
+  [darwin] reaper_reabackground.dylib https://github.com/aurnik/ReaBackground/releases/download/v$version/$path
+  [script main] ReaBackground.lua https://raw.githubusercontent.com/aurnik/ReaBackground/v$version/ReaBackground.lua
+@link
+  Source repository https://github.com/aurnik/ReaBackground
+  Issue tracker https://github.com/aurnik/ReaBackground/issues
+@about
+  # ReaBackground
+
+  Shows a muted video (synced to the play and edit cursor) or a still image
+  behind REAPER's arrange view on macOS. Items, grid, cursors and overlays
+  stay on top; the time selection, mute shading and grid lines read as
+  shading over the video.
+
+  After installing, restart REAPER, then run the action **ReaBackground.lua**
+  (or Extensions > ReaBackground...) to open the settings window. Import a
+  video or image with the + tile, click a thumbnail to use it in the current
+  project, or the globe icon to make it the default for every project.
+
+  Requirements: macOS 11 or newer, REAPER with Metal rendering enabled,
+  ReaImGui (install it from ReaPack) for the settings window.
