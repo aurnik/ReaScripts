@@ -1,7 +1,9 @@
 @description ReaBackground: video or image behind the arrange view
 @author aurnik
-@version 1.0.0
-@changelog Initial release
+@version 1.0.1
+@changelog
+  Loop is a toggle button on the slider row
+  Library thumbnails keep the video's aspect ratio instead of letterboxing into 16:9
 @provides
   [darwin] reaper_reabackground.dylib https://github.com/aurnik/ReaBackground/releases/download/v$version/$path
   [script main] ReaBackground.lua https://raw.githubusercontent.com/aurnik/ReaBackground/v$version/ReaBackground.lua
