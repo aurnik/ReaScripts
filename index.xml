@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="aurnik" commit="f250fb5052a9a681c7c6f9f9dc2d19c5ef2a7370">
+<index version="1" name="aurnik" commit="8c2bbce6de761b6b4293b517131b34fb6924fed0">
   <category name="Extensions">
     <reapack name="ReaBackground.ext" type="extension" desc="ReaBackground: video or image behind the arrange view">
       <metadata>
@@ -20,6 +20,12 @@
         <changelog><![CDATA[Initial release]]></changelog>
         <source platform="darwin" file="reaper_reabackground.dylib">https://github.com/aurnik/ReaBackground/releases/download/v1.0.0/reaper_reabackground.dylib</source>
         <source main="main" type="script" file="ReaBackground.lua">https://raw.githubusercontent.com/aurnik/ReaBackground/v1.0.0/ReaBackground.lua</source>
+      </version>
+      <version name="1.0.1" author="aurnik" time="2026-10-30T00:30:32Z">
+        <changelog><![CDATA[Loop is a toggle button on the slider row
+Library thumbnails keep the video's aspect ratio instead of letterboxing into 16:9]]></changelog>
+        <source platform="darwin" file="reaper_reabackground.dylib">https://github.com/aurnik/ReaBackground/releases/download/v1.0.1/reaper_reabackground.dylib</source>
+        <source main="main" type="script" file="ReaBackground.lua">https://raw.githubusercontent.com/aurnik/ReaBackground/v1.0.1/ReaBackground.lua</source>
       </version>
     </reapack>
   </category>
