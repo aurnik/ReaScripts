@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="aurnik" commit="d682213cecec5b0075af1e2e067e384e7234ca91">
+<index version="1" name="aurnik" commit="fb386de23800f747ea1cccb90f9ec19695d42ff0">
   <category name="Extensions">
     <reapack name="ReaBackground.ext" type="extension" desc="ReaBackground: video or image behind the arrange view">
       <metadata>
@@ -28,7 +28,7 @@ Library thumbnails keep the video's aspect ratio instead of letterboxing into 16
         <source main="main" type="script" file="ReaBackground.lua">https://raw.githubusercontent.com/aurnik/ReaBackground/v1.0.1/ReaBackground.lua</source>
       </version>
       <version name="1.0.2" author="aurnik" time="2026-11-03T03:03:54Z">
-        <changelog><![CDATA[Fix the ImGui assertion when importing after the settings window was closed and reopened]]></changelog>
+        <changelog><![CDATA[Fixed an error when importing a second video or image after reopening the settings window]]></changelog>
         <source platform="darwin" file="reaper_reabackground.dylib">https://github.com/aurnik/ReaBackground/releases/download/v1.0.2/reaper_reabackground.dylib</source>
         <source main="main" type="script" file="ReaBackground.lua">https://raw.githubusercontent.com/aurnik/ReaBackground/v1.0.2/ReaBackground.lua</source>
       </version>
