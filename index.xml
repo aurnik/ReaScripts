@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="aurnik" commit="fb386de23800f747ea1cccb90f9ec19695d42ff0">
+<index version="1" name="aurnik" commit="069f6536796137a5ae35b96bc031ccdb2e72123b">
   <category name="Extensions">
     <reapack name="ReaBackground.ext" type="extension" desc="ReaBackground: video or image behind the arrange view">
       <metadata>
@@ -31,6 +31,27 @@ Library thumbnails keep the video's aspect ratio instead of letterboxing into 16
         <changelog><![CDATA[Fixed an error when importing a second video or image after reopening the settings window]]></changelog>
         <source platform="darwin" file="reaper_reabackground.dylib">https://github.com/aurnik/ReaBackground/releases/download/v1.0.2/reaper_reabackground.dylib</source>
         <source main="main" type="script" file="ReaBackground.lua">https://raw.githubusercontent.com/aurnik/ReaBackground/v1.0.2/ReaBackground.lua</source>
+      </version>
+    </reapack>
+    <reapack name="ReaNotes.ext" type="extension" desc="ReaNotes: notes for the track, item or FX you touched last">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \fs24 \sa180 \li0 \fi0 \outlinelevel0 \b \fs34 ReaNotes\par}
+{\pard \ql \f0 \fs24 \sa180 \li0 \fi0 A dockable notes window that shows the note for whatever you touched last: a track, a media item or a plug-in. Track notes are saved in the project. Item notes are saved on the item, so duplicates, copies and splits carry their own copy. FX notes are saved once per plug-in and show up in every project that uses it.\par}
+{\pard \ql \f0 \fs24 \sa180 \li0 \fi0 Notes are markdown, styled as you type: headings, bold, italic, lists, code, quotes and links (Cmd+click to open).\par}
+{\pard \ql \f0 \fs24 \sa180 \li0 \fi0 After installing, restart REAPER, then run the action {\b ReaNotes: Show/hide notes window} (or Extensions > ReaNotes). Right-click the header to dock or undock the window.\par}
+{\pard \ql \f0 \fs24 \sa180 \li0 \fi0 Requirements: macOS 11 or newer, REAPER 7 or newer.\par}
+}
+]]></description>
+        <link rel="website" href="https://github.com/aurnik/ReaNotes">Source repository</link>
+        <link rel="website" href="https://github.com/aurnik/ReaNotes/issues">Issue tracker</link>
+      </metadata>
+      <version name="1.0.0" author="aurnik" time="2026-11-06T00:56:27Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source platform="darwin" file="reaper_reanotes.dylib">https://github.com/aurnik/ReaNotes/releases/download/v1.0.0/reaper_reanotes.dylib</source>
       </version>
     </reapack>
   </category>
