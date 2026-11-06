@@ -1,0 +1,27 @@
+@description ReaNotes: notes for the track, item or FX you touched last
+@author aurnik
+@version 1.0.0
+@changelog
+  Initial release
+@provides
+  [darwin] reaper_reanotes.dylib https://github.com/aurnik/ReaNotes/releases/download/v$version/$path
+@link
+  Source repository https://github.com/aurnik/ReaNotes
+  Issue tracker https://github.com/aurnik/ReaNotes/issues
+@about
+  # ReaNotes
+
+  A dockable notes window that shows the note for whatever you touched last:
+  a track, a media item or a plug-in. Track notes are saved in the project.
+  Item notes are saved on the item, so duplicates, copies and splits carry
+  their own copy. FX notes are saved once per plug-in and show up in every
+  project that uses it.
+
+  Notes are markdown, styled as you type: headings, bold, italic, lists,
+  code, quotes and links (Cmd+click to open).
+
+  After installing, restart REAPER, then run the action **ReaNotes:
+  Show/hide notes window** (or Extensions > ReaNotes). Right-click the
+  header to dock or undock the window.
+
+  Requirements: macOS 11 or newer, REAPER 7 or newer.
